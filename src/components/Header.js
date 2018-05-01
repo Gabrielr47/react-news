@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Header extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark box-shadow">
               <a className="navbar-brand" href="/">
               <img src="favicon.ico" width="32" height="32" className="d-inline-block align-top menu-brand" alt=""/>
                 React News
@@ -22,10 +22,6 @@ class Header extends Component {
                   <a className="nav-link" rel="noopener noreferrer" href="https://github.com/Gabrielr47" target="_blank">Github</a>
                 </li>
               </ul>
-              <form className="form-inline my-2 my-lg-0">
-                <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
             </div>
           </nav>
         )
